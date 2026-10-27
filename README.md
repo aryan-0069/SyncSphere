@@ -165,7 +165,6 @@ SyncSphere/
 | **Backend API** | Node.js, Express.js 5, TypeScript | RESTful Gateway & Authentication services |
 | **Media Routing (SFU)** | Mediasoup v3, mediasoup-client | Low-latency WebRTC video & audio router ($O(N)$ scaling) |
 | **Real-Time Layer** | Socket.io 4, ioredis | Bidirectional signaling & instant message transport |
-| **Persistence Cache** | Redis 7 | Pub/Sub distributed bridge across Node.js instances |
 | **Event Bus** | Apache Kafka (KRaft mode) | Asynchronous buffer for write amplification protection |
 | **Relational Database**| PostgreSQL 15, Prisma ORM 6 | Strongly typed ACID persistence |
 | **Cloud Storage** | AWS SDK S3 (Pre-Signed URLs) | Direct-to-bucket media file streaming |
